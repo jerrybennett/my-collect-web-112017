@@ -12,3 +12,4 @@ def my_collect(array)
   end
   modified_array
 end
+end
