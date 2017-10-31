@@ -3,7 +3,7 @@ def my_collect(array)
   i = 0
   if block_given?
     while array.length > 0
-      modified_array << yield array[i]
+      yield modified_array[i]
       i += 1
     end
   else
