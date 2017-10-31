@@ -8,7 +8,7 @@ def my_collect(array)
       i += 1
     end
   else
-    puts "Give me an array!"
+    puts "#{i}"
   end
   modified_array
 end
