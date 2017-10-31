@@ -1,8 +1,7 @@
 def my_collect(array)
   modified_array = []
-  i = 0
   if block_given?
-    while i < array.length
+    while array.length > 0
       modified_array << yield array[i]
     end
   else
