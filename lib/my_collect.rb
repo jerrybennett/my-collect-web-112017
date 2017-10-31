@@ -4,7 +4,6 @@ def my_collect(array)
     while array.length > 0
       modified_array << yield array[i]
     end
-    end
   else
     puts "Give me an array!"
   end
