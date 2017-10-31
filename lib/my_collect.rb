@@ -4,7 +4,7 @@ def my_collect(array)
   if block_given?
     while array.length > 0
       modified_array << yield array[i]
-      i 
+      i += 1
     end
   else
     puts "Give me an array!"
