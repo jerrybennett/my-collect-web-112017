@@ -5,11 +5,11 @@ def my_collect(array)
     while i < array.length
       yield array[i]
       modified_array << array[i]
-      i++
     end
+    i++
+    
   else
     puts "Give me an array!"
   end
   modified_array
-end
 end
